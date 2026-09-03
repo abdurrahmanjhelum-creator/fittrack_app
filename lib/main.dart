@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 import 'services/storage_service.dart';
 
 void main() async {
@@ -128,7 +128,7 @@ class MyAppState extends State<MyApp> {
         brightness: Brightness.dark,
         colorSchemeSeed: primaryBlue,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
